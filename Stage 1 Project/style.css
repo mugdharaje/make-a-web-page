@@ -1,0 +1,74 @@
+/* CSS allows programmers to avoid repetition. */
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+/*This will allow auto calculation of the size of the element which includes the content, padding and border such that the entire
+size of the element does not exceed the max-width assigned to the element*/
+}
+body{
+	font-family: verdana;
+	padding: 20px 30px;
+	/*Padding top and bottom is 20px, left and right is 30px*/
+	margin: 0 auto;
+	/*auto is replaced by some suitable value, e.g. it can be used for centering of blocks.*/
+	max-width: 85%;
+}
+h1{
+  background-color: aquamarine;
+  text-align: center;
+  border-radius: 10px
+}
+.lesson{
+	background-color: brown;
+	border-radius: 8px;
+	padding: 4px;
+	margin: 8px;
+	color: white;
+	font-size: 20px;
+}
+.concept{
+	background-color: aquamarine;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 8px;
+	color: black;
+	font-size: 15px;
+}
+.concept-title{
+	text-align: center;
+	font-size: 18px;
+	margin: 6px;
+	font-weight: bold;
+}
+.concept-description{
+	margin: 4px;     
+}
+
+.concept-img-description{
+	margin: 4px;
+	display: -webkit-flex;
+	display: flex;
+}
+.image{
+	max-width: 500px;
+	margin: 4px;
+}
+.my_image{
+	width:100%;
+}
+.content-text{
+	max-width: 400px;
+	margin: 4px;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	font-size: 20px;
+	line-height: 44px;
+}
+.name{
+	font-family: monospace;
+}
